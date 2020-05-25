@@ -1,0 +1,16 @@
+package com.indi.micropro.mpalbumservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class MpAlbumServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MpAlbumServiceApplication.class, args);
+	}
+
+}
+
